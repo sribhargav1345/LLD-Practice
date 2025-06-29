@@ -1,6 +1,15 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/* Requirements 
+- Parking Lot has multiple levels, each level contain no. of parking spots
+- Support diff types of vehicles 
+
+- System Assign parking spot to vehicle upon entry and release it when vehicle exits
+- System track availability of parking spots and real-time info to customers
+- Handle multiple entry and exit points and support concurrent access
+*/
+
 enum class VehicleType {
     CAR,
     MOTORCYCLE,
